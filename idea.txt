@@ -1,0 +1,21 @@
+/ClubDeLectura
+│
+├── /backend                    # Contiene el código del servidor (Node.js)
+│   ├── /config                 # Archivos de configuración de la base de datos, etc.
+│   ├── /controllers            # Lógica de las peticiones (cómo procesar una solicitud)
+│   ├── /models                 # Define la estructura de los datos (ej: usuario, libro)
+│   ├── /routes                 # Define las URLs de la API
+│   ├── /node_modules           # Dependencias de Node.js (se crea automáticamente)
+│   ├── .env                    # Variables de entorno (claves, contraseñas)
+│   ├── .gitignore              # Archivos que Git debe ignorar (como contraseñas)
+│   └── package.json            # Configuración y lista de dependencias del servidor
+│
+└── /frontend                   # Contiene el código de la aplicación web (React)
+    ├── /public                 # Archivos públicos como el index.html
+    ├── /src                    # Contiene el código fuente de tu app
+    │   ├── /components         # Componentes reutilizables (botones, menús)
+    │   ├── /pages              # Las "pantallas" principales de la aplicación
+    │   └── App.js              # El componente principal
+    ├── /node_modules           # Dependencias de React
+    ├── .gitignore              # Archivos a ignorar
+    └── package.json            # Configuración y lista de dependencias de React/nombre-del-proyecto
